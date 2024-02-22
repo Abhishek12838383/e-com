@@ -1,0 +1,47 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+height: 80px;
+    background-color: rgb(121, 121, 121);
+padding-left: 50px;
+padding-right: 50px;
+}
+.logo img{
+    height: 30px;
+    width: 100px;
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+.input input {
+    padding-left: 30px;
+    font-size: 16px;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+border: none;
+}
+.display{
+    display: flex;
+    gap: 20px;
+}
+.cart{
+
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+.login{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+.cart span{
+    color: white;
+}
