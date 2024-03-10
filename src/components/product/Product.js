@@ -8,7 +8,7 @@ const Product=({item,search,addtocart})=>{
 
   return (
     <div className="product">
-      { item.filter((title)=>{
+      { Object.keys(item).filter((title)=>{
         return search.toString().toLowerCase() === '' ? title: title.toString().toLowerCase().includes(search) 
       }).map((detail,searchdata) => {
         const {title, description, price, images } = detail;
